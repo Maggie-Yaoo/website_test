@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Maggie</h1>
+    <hr>
+    <p>2T4 ECE + PEY</p>
+
+    <!-- Will only show one space on the website-->
+    I want s   p   a   c   e
+    <br>
+    <!-- Visaulize more than one space-->
+    I want s &nbsp;&nbsp;&nbsp; p &nbsp;&nbsp;&nbsp; c &nbsp;&nbsp;&nbsp; e
+
+    <h2>Project</h2>
+    <p>MATLAB版 孤勇者</p>
+    <audio src="../ECE 216/Lab3 materials/Group34_Yao_Xu_Lab3/first.wav" controls></audio>
+    <br>
+    <a href="https://nioh.ca/" target="_blank">to nioh</a>
+
+    <ul>
+        <li>project 1</li>
+        <li>project 2</li>
+        <li>project 3</li>
+    </ul>
+
+    <h4>To Do List</h2>
+    <ol>
+        <li>231 Quiz</li>
+        <li>M4</li>
+    </ol>
+
+    <dl>
+        <dt>Education</dt>
+        <dd>High School</dd>
+        <dd>Univeristy</dd>
+    </dl>
+
+    <table border="1" width = "300" height = "100">
+        <caption><b>Work</b></caption>
+        <!-- caption: outside the table, only centralize -->
+
+        <thead>
+            <tr>
+                <td rowspan = "2"> ' v '</td>
+                <td colspan = "2">Table</td>
+            </tr>
+
+            <tr>                          
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Date</th>
+                <th>Task</th>
+                <th>Status</th>
+                <!-- table header(th): strong and centralize -->
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>2022.04.03</td>
+                <td>Finish basic HTML class on Bilibili</td>
+                <td><b>Ongoing</b></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+
+    <h2>User Input</h2>
+
+    <form action="">
+        User Name: <input type="text" placeholder="Your user name">
+        <br>
+        <br>
+        Password: <input type="password">
+        <br>
+        <br>
+        Select: 
+        <input type="radio" name="sex0"> Male 
+        <input type="radio" name="sex0" checked> Female
+        <!-- Same name: can only select one at a time-->
+        <!-- checked: default checked-->
+        <br>
+        <br>
+        Can Select by clicking Text:
+        <input type="radio" name="sex1" id="man">
+        <label for="man">Male</label>
+        <label ><input type="radio" name="sex1">Female</label>
+        <br>
+        <br>
+        Checkbox: <input type="checkbox">
+        <br>
+        <br>
+        Submit File: <input type="file" multiple>
+        <!-- multiple: can submit multiple files-->
+        <br>
+        <br>
+        <input type="submit">
+        <!-- submit will send the data and refresh the page-->
+        <input type="reset">
+        <!-- reset to default value -->
+        <input type="button" value="click me">
+        <br>
+        <br>
+        <!-- Same as above-->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">click me</button>
+        <br>
+        <br>
+        <input type="botton">
+        <br>
+        <br>
+        <!-- Dropdown List -->
+        Country:
+        <select name="Country" id="1">
+            <option value="China">China</option>
+            <option value="Canada" selected>Canada</option>
+        </select>
+        <br>
+        <br>
+        Introduce yourself:
+        <br>
+        <textarea name="" id="" cols="30" rows="10" ></textarea>
+        <!-- later use css to define cols and rows-->
+    </form>
+
+    <div>A block at next line</div>
+    <div></div>
+    <span>A block in the same line</span>
+    <span>Yeah</span>
+
+    <!-- 手机端用block(mention later)：-->
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <footer></footer>
+    <aside></aside>
+    <section></section>
+
+    <br>
+
+</body>
+</html>
+
+
